@@ -1,0 +1,706 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+	
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+    <meta name="description" content="">
+	
+    <meta name="author" content="">	
+	
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+	
+	<link rel="stylesheet" type="text/css" href="css/dillj_specific.css" />
+	
+    <!-- jQuery Version 1.11.0 -->
+    <script src="js/jquery-1.11.0.js"></script>
+	
+	<link href="https://fonts.googleapis.com/css?family=Harmattan|PT+Sans" rel="stylesheet">
+	
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,400,900" rel="stylesheet">
+
+    <style>
+	
+    @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,300);
+footer { background-color:#fff; min-height:350px; font-family: 'Open Sans', sans-serif; }
+.footerleft { margin-top:50px; padding:0 36px; }
+.logofooter { margin-bottom:10px; font-size:25px; color:#fff; font-weight:700;}
+
+.footerleft p { color:#000; font-size:12px !important; font-family: 'Open Sans', sans-serif; margin-bottom:15px;}
+.footerleft p i { width:20px; color:#999;}
+
+
+.paddingtop-bottom {  margin-top:50px;}
+.footer-ul { list-style-type:none;  padding-left:0px; margin-left:2px;}
+.footer-ul li { line-height:29px; font-size:12px;}
+.footer-ul li a { color:#a0a3a4; transition: color 0.2s linear 0s, background 0.2s linear 0s; }
+.footer-ul i { margin-right:10px;}
+.footer-ul li a:hover {transition: color 0.2s linear 0s, background 0.2s linear 0s; color:#ff670f; }
+
+.social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+ 
+ 
+
+ 
+ .icon-ul { list-style-type:none !important; margin:0px; padding:0px;}
+ .icon-ul li { line-height:75px; width:100%; float:left;}
+ .icon { float:left; margin-right:5px;}
+ 
+ 
+ .copyright { min-height:40px; background-color:#000000;}
+ .copyright p { text-align:left; color:#000; padding:10px 0; margin-bottom:0px;}
+ .heading7 { font-size:21px; font-weight:700; color:#d9d6d6; margin-bottom:22px;}
+ .post p { font-size:12px; color:#000; line-height:20px;}
+ .post p span { display:block; color:#8f8f8f;}
+ .bottom_ul { list-style-type:none; float:right; margin-bottom:0px; background: #fff;}
+ .bottom_ul li { float:left; line-height:40px;}
+ .bottom_ul li:after { content:""; color:#000; margin-right:8px; margin-left:8px;}
+ .bottom_ul li a { color:#000;  font-size:12px;}
+ 
+ .name-zig {
+    width: 73px;
+    height: 17px;
+    margin: -15px 0 0 5px;
+    background: url(name-zig.png) 0 0 no-repeat;
+    background-size: 73px 17px;
+}
+	  
+	.navvy_line {
+  width:50%;
+  margin:auto;
+  font-size:16px;
+}
+
+.navvy_line ul {
+  list-style-type:none;
+  padding:0; margin:0 0 0 0;
+  text-align:center;
+
+  float:left;
+}
+
+.navvy_line li {
+  float:left;
+  margin-right:;
+}
+
+.navvy_line li:last-child {
+  margin-right:0;
+}
+
+.navvy_line li a {
+  text-decoration:none;
+  color:#000;
+  transition:all 0.2s;
+  -webkit-transition:all 0.2s;
+  -moz-transition:all 0.2s;
+}
+
+.navvy_line li a:after {
+  content:"";
+  display:block;
+  padding:10px 0 0 0;
+  border-top:2px solid #999;
+  width:0;
+  transition:all 0.2s;
+  -webkit-transition:all 0.2s;
+  -moz-transition:all 0.2s;
+}
+
+.navvy_line li a:hover {
+  color:#000;
+}
+
+.navvy_line li a:hover:after {
+  width:100%;
+  border-top:2px solid #000;
+}  
+
+
+
+.line li a {
+  text-decoration:none;
+  color:#000;
+  transition:all 0.2s;
+  -webkit-transition:all 0.2s;
+  -moz-transition:all 0.2s;
+}
+
+.line li a:after {
+  content:"";
+  display:block;
+  padding:10px 0 0 0;
+  border-top:2px solid #999;
+  width:0;
+  transition:all 0.2s;
+  -webkit-transition:all 0.2s;
+  -moz-transition:all 0.2s;
+}
+
+.line li a:hover {
+  color:#000;
+}
+
+.line li a:hover:after {
+  width:100%;
+  border-top:2px solid #000;
+}  
+	  
+	</style>
+
+</head>
+
+<body class="back_foot">
+
+
+<!---------- alert! -->
+
+<div class="nobody no_mobile_device main_alert videoContainer alert alert-success alert-dismissable alert alert-intro fade in">
+  
+  <a href="#" style="font-size: 4em; margin-right: 15px; float: right; color: #ff0000; opacity: .5;" class="close tilt" data-dismiss="alert" aria-label="close">&times;</a>
+  
+  <div class="col-lg-12">
+
+  <center>
+    
+	<div style="margin-top: 7.5%;" class="logo_anime">
+			
+      <ul id="demo" class="display-animation logo_anime">
+  
+              <li><img src="images/d.png"  ></li><li><img src="images/i.png"  ></li><li><img src="images/l.png"  ></li><li><img src="images/l.png"  ></li><li><img src="images/i.png"  ></li><li><img src="images/n.png"  ></li><li><img src="images/j.png"  ></li><li><img src="images/a.png"  ></li>
+  
+      </ul>
+  
+    </div>
+        
+  </center>
+  
+  </div>
+ 
+</div>
+
+<!-------------------- SLASHalert -->
+
+  <div class="body_padding fade_4">
+  <br>
+
+    <div class="col-lg-10 col-lg-offset-1">
+
+      <header class="">
+	  
+        <div class="row" style="margin-top: 0;">
+		
+		  <div class="col-lg-3">
+		  
+		    <ul style="margin:; list-style: none; display: inline; padding: 0 5px;">
+			
+			  <li style="padding: 0 10px;">
+                <a href="https://soundcloud.com/officialvalverecordings"><img src="images/soundcloud.svg"></a>
+              </li>
+					
+              <li style="padding: 0 10px;">
+                <a href="https://soundcloud.com/officialvalverecordings"><img src="images/vibe_twit.svg"></a>
+              </li>
+			  
+			  </ul>
+			  
+		  </div>
+		
+          <div class="col-lg-6">
+
+
+	        <center>
+    
+              <img class="image-responsive main_margin" style="margin: 17.5px 0 0 -35px;" src="images/dillinja_wht.svg" width="100%" height="auto" style="opacity: ;"/>
+        <br><br><br>
+	        </center>
+
+          </div>
+	
+	      <div class="col-lg-3">
+			  
+            <ul style="margin: ;" class="the_right" >   
+	  
+              <li style="padding: 0 10px;">
+                <a href="https://soundcloud.com/officialvalverecordings"><img src="images/vibe_toob.svg"></a>
+              </li>
+	  
+              <li style="padding: 0 10px;">
+                <a href="https://soundcloud.com/officialvalverecordings"><img src="images/vibe_face.svg"></a>
+              </li>
+	  
+            </ul>
+	
+          </div> 
+  
+        </div>
+		
+		</div>
+		
+		<div class="col-lg-12">
+ 	
+        <div class="col-lg-12" style="background: rgba(0,0,0,0.015) padding: 5px 0 0 0;">
+	
+    
+	    <center>
+		
+		<div class="nav_lists nav_list navvy_line" style="padding-left: 155px;">
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Bio</a></li>
+    <li><a href="#">Music</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</div>
+		
+		<!--
+	
+          <ul class="nav_lists" style="list-style: none; margin-left: -28px; color: #fff; " class="nav_list">
+	
+            <li style="border-right: ;"><a href="index.html">home</a></li>
+	        <li style="border-right: ;"><a href="bio.html">biography</a></li>
+			
+	
+			
+	        <li style="border-right: ;"><a href="discog.html">discog</a></li>
+	        <li style="border-right: ;"><a href="">contact</a></li>  
+          
+		  </ul>
+		  
+		  -->
+		  
+		</center>
+		  
+		  <br>
+
+
+        </div>
+		
+		<br><br><br>
+
+      </header>
+	  
+	</div>
+
+<!---------- /SLASH desk header -->
+
+
+<!---------- !main content -->
+
+    <div class="col-lg-10 col-lg-offset-1" style="background: rgba(0,0,0,0.015);">
+
+<!-------------------- event_section -->
+    
+	<div class="row" style="padding: 0 25px 0 25px;">
+	
+
+	
+	
+	  <div class="col-lg-8" style="padding: 0 25px 0 25px;">
+	
+	    <h1>upcoming gigs</h1>
+	
+<div class="name-zig"></div>
+<!-------------------- /slash top_list -->	  
+
+	  <div class="col-lg-12" style="border-bottom: 2px solid #eee;">
+	
+	    <div class="col-lg-2">
+	  
+	      <p><b>Date</b></p>
+	  
+	    </div>
+	
+	    <div class="col-lg-2">
+	  
+	      <p><b>Event</b></p>
+	  
+	    </div>
+
+	    <div class="col-lg-8" style="float: left;">
+
+          <p style="float: right;"><b>Location</b></p>
+
+	    </div>	 
+
+      </div>
+
+	  
+<!-------------------- /slash event -->
+
+	  <div class="col-lg-12"  style="border-bottom: 2px solid #eee;">
+	
+	    <div class="col-lg-2">
+	  
+	      <p><b>May 16</b></p>
+	  
+	    </div>
+	
+	    <div class="col-lg-2">
+	  
+	      <p><b>D.O.S</b></p>
+	  
+	    </div>
+
+	    <div class="col-lg-8" style="float: left;">
+
+          <p style="float: right;">@Mauerpfeiffer</p>
+
+	    </div>	 
+
+      </div>
+	  
+<!-------------------- /slash event -->
+	  
+<!-------------------- /slash event -->
+
+    </div>
+	<!--
+	<div class="col-lg-4" style="padding: 0 15px 0 15px; background: #eee;">
+	
+	  <h1>#news</h1>
+	
+	</div>
+	-->
+	
+	
+	<div class="col-lg-4" style="padding: 0 15px 0 15px;">
+	
+	  <h1>social</h1>
+	  <div class="name-zig"></div>
+	  		    
+				<br>
+				<!--
+			<ul style="margin: 0 0 20px -22.5px;">
+				
+			  <li style="padding: 0 10px;">
+                <a href="https://soundcloud.com/officialvalverecordings"><img src="images/soundcloud.svg"></a>
+              </li>
+					
+              <li style="padding: 0 10px;">
+                <a href="https://soundcloud.com/officialvalverecordings"><img src="images/vibe_twit.svg"></a>
+              </li>				
+			
+			  <li style="padding: 0 10px;">
+                <a href="https://soundcloud.com/officialvalverecordings"><img src="images/soundcloud.svg"></a>
+              </li>
+					
+              <li style="padding: 0 10px;">
+                <a href="https://soundcloud.com/officialvalverecordings"><img src="images/vibe_twit.svg"></a>
+              </li>
+			  
+			  </ul>-->
+			  
+			  
+	
+	  <div class="col-lg-12 col-sm-6 col-xs-12" style="margin-top: 5px;">
+		  
+		<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/493564&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+		  
+      </div>
+	  
+	   <div class="col-lg-12 col-sm-6 col-xs-12" style="">
+<br>	  
+
+	  <div class="name-zig" style="margin: 0;"></div>
+	  
+	  <br>
+		 </div> 
+		 
+	            <div class="col-lg-12 col-sm-6 col-xs-12" style="">
+            
+		  <center>
+		
+     		<a class="twitter-timeline" href="https://twitter.com/DillinjaValve" data-widget-id="530415666164031489">Tweets by @DillinjaValve</a>
+	
+        	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+		
+      	  </center> 	
+          
+		  </div>
+		  
+		  
+		  
+	   <div class="col-lg-12 col-sm-6 col-xs-12" style="">
+<br>	  
+
+	 
+	  
+	  <br>
+		 </div> 
+	</div>
+	
+
+
+		
+	</div>
+  
+    </div>
+	
+
+	
+	
+	
+	<!-------------------- !aside side_bar --
+ 
+
+
+	    <div class="col-lg-4 col-sm-12 col-xs-12">
+		
+		    
+			
+	      <div class="col-lg-12 col-sm-6 col-xs-12" style="">
+		  
+		  <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/493564&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+		  
+		  </div>
+			
+          <div class="col-lg-12 col-sm-6 col-xs-12" style="">
+            
+		  <center>
+		
+     		<a class="twitter-timeline" href="https://twitter.com/DillinjaValve" data-widget-id="530415666164031489">Tweets by @DillinjaValve</a>
+	
+        	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+		
+      	  </center> 	
+          
+		  </div>			
+	
+	    </div>
+
+
+	
+<!-------------------- /aside side_bar -->
+  
+<!-------------------- /SLASHevent --> 
+
+        </div> 
+		
+			  
+			  </div>
+
+<!-------------------- /SLASHevent_section --
+
+ style="padding: 25px 15px 0 15px;"
+
+
+
+
+
+<!-------------------- / main content -->
+
+
+
+<!-------------------- !mobile_nav --
+	  
+	  <div class="nav_bottom only_mobile" style="position: fixed; bottom: 0; width: 100%; border-top: 0px solid #eee; padding: 15px; background: transparent;" >
+   
+        <div class="list3">
+  
+          <ul>
+    
+	        <li style="border-right: 3px solid #eee;"><a href="bio_Ser.html"><img class="image-responsive" src="images/twitterdarker.png" ></a></li>
+	
+	        <li style="border-right: 3px solid #eee;"><a href="media_Ser.html"><img class="image-responsive" src="images/youtubedarker.png" ></a></li>
+	
+	        <li style=""><a href="index.html"><img class="image-responsive" src="images/soundclouddarker.png" ></a></li>
+  
+          </ul>
+  
+        </div>
+	
+      </div>
+	  
+<!-------------------- /mobile_footer -->
+
+
+
+<!-------------------- !eff_bee comments --
+      
+	  <section id="comments">
+      
+   	    <div class="fb-comments" data-href="http://developers.facebook.com/docs/plugins/comments/" data-numposts="5" data-colorscheme="light"></div>	  
+      
+	  </section>
+	  
+<!-------------------- /eff_bee comments -->
+
+    </div>
+
+  </div>
+
+<!-------------------- /slash body_padding -->
+  
+  
+  
+<!-------------------- !BIG_IMG -->
+
+  <div class="container-fluid" style="padding: 0;">
+  
+    <img class="image-responsive" src="images/crowd.jpg" width="100%" height="auto" >
+  
+  </div>
+  
+
+  
+  <link href="https://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css" rel="stylesheet">
+<!--footer start from here-->
+<footer style="margin-top: -10px;">
+  <div class="">
+  
+  <div class="col-lg-10 col-lg-offset-1" style="background: rgba(0,0,0,.025);">
+    <div class="row">
+      <div class="col-md-4 col-sm-6 footerleft ">
+        <div class="logofooter"> <img class="image-responsive" src="images/main_wht.png" width="300px" height="auto" style="margin-left: -25px;"></div>
+      <p><i class="fa fa-map-pin"></i>Studio 24, Charlton, SE8 XXX, LDN </p>
+        <p><i class="fa fa-phone"></i> Phone (LDN) : +1 0891 50 50 50</p>
+        <p><i class="fa fa-envelope"></i> Contact : agent@agent.com</p>
+		
+		<br>
+        
+      </div>
+      <div class="col-md-2 col-sm-6 paddingtop-bottom">
+
+      </div>
+      <div class="col-md-3 col-sm-6 paddingtop-bottom">
+
+      </div>
+      <div class="col-md-3 col-sm-6 paddingtop-bottom">
+        <div class="fb-page" data-href="https://www.facebook.com/facebook" data-tabs="timeline" data-height="300" data-small-header="false" style="margin-bottom:15px;" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+          <div class="fb-xfbml-parse-ignore">
+            <blockquote cite="https://www.facebook.com/facebook"><a href="https://www.facebook.com/facebook">Facebook</a></blockquote>
+          </div>
+        </div>
+      </div>
+    </div>
+	
+	</div><!-- col-10 -->
+	
+	
+  </div>
+    <br>
+
+</footer>
+<!--footer start from here-->
+
+<div class="copyright">
+  <div class="container">
+    <div class="col-md-6">
+      <!--<p>© 2016 - le_chateu mort</p>-->
+    </div>
+    <div class="col-md-6">
+	
+      <ul class="bottom_ul">
+        <li><a href="#"><img src="images/soundcloud.png" width="35px" height="auto"></a></li>
+        <li><a href="#"><img src="images/vibe_twit.png" width="35px" height="auto"></a></li>
+        <li><a href="#"><img src="images/vibe_toob.png" width="35px" height="auto"></a></li>
+        <li><a href="#"><img src="images/vibe_face.png" width="35px" height="auto"></a></li>
+
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-------------------- !footer --
+
+      <footer class="no_mobile" style="margin-top: 0px;">
+
+        <div class="col-lg-12 back_foot" style="padding: 0 17.5px;">
+
+          <div class="container no_mobile">
+  
+            <br>
+		   
+		    <div class="socialicons" style="margin: 25px;">
+	
+              <center>
+            	
+				<a class="social" href="https://twitter.com/dillinjavalve"><article><center><img class="soc_icons" src="images/diltwit.svg"></center></article></a>
+				
+				<a class="social" href="https://www.youtube.com/user/valvemusicgroup"><article><center><img class="soc_icons"  src="images/dilface.svg"></center></article></a>
+				
+				<a class="social" href="https://soundcloud.com/officialvalverecordings"><article><center><img class="soc_icons" src="images/dilyou.svg"></center></article></a>
+            
+			  </center>
+		  
+		    </div>
+
+		  </div>
+
+		</div>
+ 
+      </footer>
+	  
+	  -->
+	   
+
+	   
+	   
+	   
+
+
+
+	
+    <!-- jQuery Version 1.11.0  -->
+    <script src="js/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+	<script src="js/bootstrap.min.js"></script>
+
+	
+	
+
+	
+<script>
+ /**
+ * Created by Kupletsky Sergey on 16.09.14.
+ *
+ * Hierarchical timing
+ * Add specific delay for CSS3-transition to elements.
+ */
+
+(function($) {
+  var speed = 900;
+  var container =  $('.display-animation');  
+  container.each(function() {   
+    var elements = $(this).children();
+    elements.each(function() {      
+      var elementOffset = $(this).offset(); 
+      var offset = elementOffset.left*0.8 + elementOffset.top;
+      var delay = parseFloat(offset/speed).toFixed(2);
+      $(this)
+        .css("-webkit-transition-delay", delay+'s')
+        .css("-o-transition-delay", delay+'s')
+        .css("transition-delay", delay+'s')
+        .addClass('animated');
+    });
+  });
+})(jQuery);//@ sourceURL=pen.js
+</script>
+
+
+
+    <script src="js/sharing.js"></script>
+
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
